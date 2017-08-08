@@ -1,0 +1,23 @@
+{
+    "name": "phpcomposer/json",
+    "description": "php library to encode and decode json",
+    "license": "MIT",
+    "authors":[
+        {
+            "name":"xiaoyu",
+            "email":"xxxx@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {"phpcomposer\\":"src/"} //文件目录，json文件目录
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com" //改为国内镜像
+        }
+    }
+}

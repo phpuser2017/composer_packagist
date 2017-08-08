@@ -1,0 +1,11 @@
+DemoCode
+
+<?php 
+require './vendor/autoload.php'; //引入自动加载文件
+
+$data=['name'=>'zhangsan',
+		'age'=>'27'
+];
+
+$jsondata= \phpcomposer\Json::encode($data); //调用json文件中的方法
+print_r($jsondata);
