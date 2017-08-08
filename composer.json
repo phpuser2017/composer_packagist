@@ -12,7 +12,8 @@
         "php": ">=5.5.9"
     },
     "autoload": {
-        "psr-4": {"phpcomposer\\":"src/"} //文件目录，json文件目录
+        //文件目录，json文件目录
+        "psr-4": {"phpcomposer\\":"src/"}
     },
     "repositories": {
         "packagist": {
